@@ -1,0 +1,125 @@
+/*GENERAL*/
+
+h3 { text-align: center;
+     margin: 0px 0px 20px 0px;
+     color:whitesmoke;
+     font-size: 2em;
+     display: block;
+     width: 100%;
+    
+     }
+
+#sidebarcontact { float: left;
+                  width: 100%;
+                  min-height: 50px;
+                  padding: 30px 0px;
+                  color:#f5f5f5;
+                  background-color: transparent;
+                  overflow: hidden;
+}
+
+#contacto{
+ width: 95%;
+ min-height: 400px;
+ padding: 0px 5px;
+ margin: 0 auto 0 auto;
+ background-image:url(img/descarga.jpg);
+ background-size: 200% 100%;
+ 
+}
+
+#contacto form { width: 98%;
+                 padding: 10px 20px;
+                 margin: auto;
+                 background-color: bisque;
+                 background-color: rgba(0,0,0,.4);
+                 box-sizing: border-box;
+                 border-radius: 10px;
+       }
+input, textarea { width: 100%;
+                  margin-bottom: 20px;
+                  padding: 10px;
+                  box-sizing: border-box;
+                  font-size: 17px;
+                  border-bottom-right-radius: 10px;
+                  border:none;}
+
+textarea { min-height: 150px;
+           max-height: 220px;
+           max-width: 100%;}
+
+#boton { background-color: #ea46ca;
+         color: whitesmoke;
+         padding: 10px;
+        font-size: 1.5em;
+        cursor: pointer;}
+
+@media only screen and (min-width: 481px) {
+    
+ #contacto{
+            width: 300px;
+            margin: auto;}
+    
+    #contacto form { width: 98%;}
+    
+}
+
+@media only screen and (min-width: 600px) {
+    
+ #contacto{
+            width: 60%;
+            margin: auto;}
+    
+    #contacto form { width: 98%;}
+    
+}
+
+
+@media only screen and (min-width: 768px) {
+    
+#contacto{
+            width: 98%;
+            }
+    
+ #contenido article {  width: 55%; } 
+
+#sidebarcontact { width: 45%;
+                  margin: 8px 0 0 0;
+                  min-height: 470px;
+            } 
+
+}
+
+@media only screen and (min-width: 1024px) {
+    
+ #contacto{
+            width: 90%;
+            }
+    
+    #contenido article {  width: 60%; } 
+    
+#sidebarcontact { width: 40%;
+            margin: 8px 0 8px 0;
+            min-height: 315px;
+            }     
+    
+    
+}
+
+@media only screen and (min-width: 1280px) {
+    
+ #contacto{
+            width: 65%;
+            }
+
+
+}
+
+@media only screen and (min-width: 13656px) {
+    
+#contacto{
+            width: 60%;
+            }
+
+
+}

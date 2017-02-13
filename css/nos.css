@@ -1,0 +1,29 @@
+/*Medias*/
+/*768 breakpoint*/
+@media only screen and (min-width: 768px) {
+    
+    
+div.frase img { width: 90%;
+                padding-top: 300px;}
+
+
+#sidebar { 
+            min-height: 852px;
+            } 
+    
+}
+
+/*1024 breakpoint*/
+@media only screen and (min-width: 1024px) {
+    
+    
+div.frase img { width: 90%;
+                padding-top: 220px;}
+
+
+#sidebar { 
+            min-height: 608px;
+            } 
+    
+}
+

@@ -1,0 +1,442 @@
+/*Documento CSS*/
+
+
+/*GENERAL*/
+header, section, nav, article, aside, footer, span, figure { display: block;
+                                                             box-sizing: border-box;}
+
+@font-face {
+    font-family: 'nunito_sansbold';
+    src: url('fonts/nunitosans-bold-webfont.woff2') format('woff2'),
+         url('fonts/nunitosans-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'nunito_sanslight';
+    src: url('fonts/nunitosans-light-webfont.woff2') format('woff2'),
+         url('fonts/nunitosans-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'nunito_sansregular';
+    src: url('fonts/nunitosans-regular-webfont.woff2') format('woff2'),
+         url('fonts/nunitosans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h1 { font-family:nunito_sanslight;
+     font-size: 1.5em;
+     }
+
+h2 { font-family: nunito_sansregular;
+     color: black;
+     display: block;
+     width: 100%;
+     margin: auto;
+     text-align: center;
+     padding: 15px 0px 0px 0px;
+     text-decoration-line: none;}
+
+h3 { }
+
+h4 {font-family:nunito_sanslight;
+    font-size: 1.5em; }
+
+h5 { }
+
+h6 { display: block;
+     color: #000000;
+     padding: 0px;
+     margin: auto;
+     font-family: nunito_sansregular;
+     font-size: 2em;}
+
+
+/*NAVEACION*/
+
+#nav { width: 100%;
+       /*background-color: black;*/
+       min-height: 50px;
+       overflow: hidden;
+       border-top: 1px dashed rgba(206, 197, 197, 0.60);
+       /*box-shadow: 0px 3px 5px #000000;*/}
+
+
+/*LAYOUT*/
+
+#contenedor { width: 100%;
+              min-height: 800px;
+              overflow: hidden;}
+
+#container { width: 100%;
+              min-height: 800px;
+              overflow: hidden;}
+
+#encabezado { width: 100%;
+              /*background-color: black;*/
+              height: 130px;}
+
+ul.fa-ul { display: none;
+           box-sizing: border-box;
+           width: 180px;
+           margin: 0px;
+           float: right;
+           }
+
+ul.fa-ul li { display: block;
+              padding-bottom: 8px;}
+
+ul.fa-ul a {text-decoration: none;
+            color: #000000;
+            font-size: 1.2em;}
+
+.fa-mobile, .fa-phone { color: #000000;}
+
+.logo { display: block;
+        width: 80%;
+        margin: auto;
+        height: auto;
+        padding-top: 30px;}
+
+#cuerpo { width: 100%;
+          min-height: 400px;
+          overflow: hidden;
+          }
+
+#contenido { width: 100%;
+             min-height: 200px;
+             overflow: hidden;}
+
+#contenido article {float: left;
+                    width: 100%;
+                    line-height: 1.5em;
+                    min-height: 400px;
+                    padding: 30px 5%;
+                    font-family:nunito_sanslight;
+                    font-size: 1.3em;} 
+
+#contenido article p {  line-height: 1.5em; }
+
+.btn { display: block;
+        font-family: nunito_sansregular;
+        text-align: center;
+        color: #f5f5f5;
+        font-size: 1.6em;
+        background: #dd137b;
+        padding: 15px 0% 15px 0%;
+        text-decoration: none;
+}
+
+.btn:hover { background-color: rgba(221, 99, 211, 0.72);}
+
+#sidebar { float: left;
+            width: 100%;
+            min-height: 50px;
+            padding: 50px 0px;
+            color:#f5f5f5;
+            /*background-color: #dd137b;*/
+            overflow: hidden;
+}
+/*----Aqui comienza la Frase------*/
+
+#sidebar div.frase { margin: auto;
+                     padding:0px;
+                     width: 90%;
+                     min-height: 100px;
+                     overflow: hidden;
+                    }
+
+div.frase img { display: block;
+                margin: auto;
+                width: 100%;
+                height: auto;}
+
+/*-----------Fin de Frase-----------------*/
+
+#photogallery {width: 100%;
+               min-height: 150px;
+               float: left;
+                border-top: 1px dashed rgba(0, 0, 0, 0.30);
+                /*border-bottom: 1px solid rgba(0, 0, 0, 0.30);*/
+               /*background-color: black;*/
+               /*box-shadow: 0px 0px 10px #000000;*/
+               overflow: hidden;
+    
+               }
+
+#pasion { width: 100%;
+          float: left;
+          min-height: 100px;}
+
+#pasion p {width: 100%;
+           line-height: 1.5em;
+           margin: 0px;
+           padding: 30px 5%;
+           font-family:nunito_sanslight;
+            box-sizing: border-box;
+           font-size: 1.3em;
+           /* text-align: justify;*/}
+
+#pie { width: 100%;
+       min-height: 150px;
+       border-top: 1px dashed rgba(0, 0, 0, 0.30);
+       border-bottom: 1px dashed rgba(0, 0, 0, 0.30);
+       /*background-color: black;*/
+       /*box-shadow: 0px 0px 10px #000000;*/}
+       }
+
+#pie aside { width: 100%;
+             min-height: 100px;}
+
+#pie p { display: block;
+         width: 100%;
+         min-height: 20px;
+         font-size: 0.6em;
+         /*font-size: 1em;*/
+         box-sizing: border-box;
+         text-align: right;
+         margin: 0px;
+         padding: 5%;
+         line-height: 1.5em;
+         color: black;
+         border-bottom: 1px solid rgba(157, 151, 151, 0.31);
+         
+         }
+
+#pie div { color: #f5f5f5;
+           font-size: 0.6em;
+           padding: 8px 5%;
+           text-align: center;
+           }
+#pie a { text-decoration: underline;
+         color: #000000;
+         
+         }
+
+#pie section { display: none; 
+               width: 30%;
+               height: 180px;
+               margin: 0px;
+               float: left;
+               background-color: #f5f5f5;}
+
+#pie ul { display: block;
+          width: 90%;
+          height: 50px;
+          padding: 0px 20%;
+          box-sizing: border-box;
+          margin: 0px 5%;
+          list-style-type: none;
+          }
+
+#pie ul li { display: inline-block;
+             margin: auto;
+             width: 30%;
+             padding: 0px 10px;
+             }
+
+#pie ul li img { width: 100%;
+                 height: auto;}
+
+span#tel { width: 90%;
+           margin: auto;
+           text-align: center;}
+
+span#tel a { color:black;
+             font-size: 1.2em;
+             font-family: nunito_sansregular;
+             text-decoration: none;
+             }
+
+
+/*MEDIA QUERIES*/
+
+/*480 breakpoint*/
+@media only screen and (min-width: 480px) {
+    
+.logo { width: 62%;
+        padding-top: 28px;}
+    
+div.frase img { width: 80%; }
+    
+}
+
+/*600 breakpoint*/
+@media only screen and (min-width: 600px) {
+    
+
+    
+.logo { width: 50%;
+        padding-top: 25px;}
+    
+div.frase img { width: 60%; }
+    
+}
+
+/*768 breakpoint*/
+@media only screen and (min-width: 768px) {
+    
+    
+.logo { width: 30%;
+        margin: 0 0 0 5%;
+        padding-top: 35px;}
+    
+div.frase img { width: 90%;
+                padding-top: 300px;}
+    
+ #contenido article {  width: 60%; 
+                        margin: 0px;} 
+
+#sidebar { width: 40%;
+            margin: 8px 0 0 0;
+            min-height: 802px;
+            } 
+
+#pie { min-height: 170px;
+       overflow: hidden;}
+    
+#pie aside {width: 70%;
+            height: 150px;
+            float: left;} 
+    
+#pie p { width: 100%;
+        float: left;
+        font-size: 0.8em;
+        padding-top: 17px;
+        padding-bottom: 17px;
+        }
+    
+#pie section { display: block; }
+    
+
+
+    
+#pie div { width: 100%;
+           height: 20px;
+           box-sizing: border-box;
+           padding: 20px 20px 10px 0px;
+           float: left;
+           color: #000000;
+           text-align: right;
+           /*background-color: #000000;*/
+           }
+
+#pie img.logopie { display: block;
+                   width: 85%;
+                   margin: auto;
+                   padding: 15px 0px;
+                   height: auto; /* 5355289013 darian */ /**/}
+    
+    ul.fa-ul { display: block;
+                padding-top: 32px;}
+                   
+
+}
+/*1024 breakpoint*/
+@media only screen and (min-width: 1024px) {
+
+.logo { width: 25%;
+        margin: 0 0 0 5%;
+        padding-top: 30px;}
+    
+ul.fa-ul { padding-top: 28px;}
+
+    #nav { padding-top: 4px;}   
+    
+#contenido article {  width: 70%; 
+                        margin: 0px;} 
+    .btn { width: 50%;
+           margin-left: 50%;
+          -webkit-border-bottom-right-radius: 10px;
+          -moz-border-bottom-right-radius: 10px;
+          border-bottom-right-radius: 10px;}
+
+#sidebar { width: 30%;
+            margin: 8px 0 8px 0;
+            min-height: 525px;
+            } 
+    
+div.frase img { width: 90%;
+                padding-top: 200px;}
+    
+    #pasion p { min-height: 200px;}
+#pie aside { width: 75%; }
+    
+#pie section { width: 25%; }
+        
+    }
+/*1280 breakpoint*/
+@media only screen and (min-width: 1280px) {
+    
+.logo { width: 20%;
+        margin: 0 0 0 5%;
+        padding-top: 30px;}
+    
+    .btn { margin-top: 40px;}
+    
+#sidebar {         
+            min-height: 490px;
+            } 
+    
+div.frase img { padding-top: 150px;}
+    
+#pie img.logopie { width: 80%;                  
+                   padding: 15px 0px;   
+    }
+    
+#pie section { width: 20%; }
+#pie aside { width: 80%; }
+}
+    
+/*1366 breakpoint*/
+@media only screen and (min-width: 1366px) {
+        
+    #pie p { padding-left: 2%;
+             padding-right: 2%;}
+    
+    div.frase img { padding-top: 130px;}  
+    
+    #pie section { width: 18%; }
+#pie aside { width: 82%; }
+
+.btn { margin-top: 60px;}
+    
+ul.fa-ul { width: 200px;
+           padding-top: 28px;}
+        
+}
+
+/*1600 breakpoint*/
+@media only screen and (min-width: 1600px) {
+    
+    #container { width: 1300px;
+                 margin: auto;
+                 padding: 0px;
+                 box-sizing: border-box;
+                 border: 1px solid rgba(0, 0, 0, 0.5);
+                 -webkit-box-shadow: 0px 0px 5px 2px rgba(50, 50, 50, 0.71);
+-moz-box-shadow:    0px 0px 5px 2px rgba(50, 50, 50, 0.71);
+box-shadow:         0px 0px 5px 2px rgba(50, 50, 50, 0.71);
+                 }
+    
+    #encabezado { width: 1300px;
+                  margin: auto;} 
+    #nav { width: 1300px;
+            margin: auto;}
+    
+    #cuerpo { width: 1300px;
+                margin: auto;}
+    #pie { width: 1300px;
+                margin: auto; }
+    
+}
+
+/* 5355289013 darian */ /**/
